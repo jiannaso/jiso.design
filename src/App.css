@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +37,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 25%;
+  text-align: left;
+  /* margin-left: 2rem; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* padding: 2rem; */
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.small_box {
+  background: rgba(255, 120, 172, .1);
+  transition: background-color 0.5s;
+}
+
+.small_box:hover {
+  background: rgba(255, 120, 172, .3);
+  color: black;
+}
+
+.logo {
+  -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+h3, h5, a {
+  color: rgba(255, 120, 172);
 }
