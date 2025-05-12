@@ -16,6 +16,9 @@ function Sidebar() {
       <p>language</p>
 
       <h5 style ={{marginTop: "3rem"}}>DREAMING OF</h5>
+      <p>a theory of love for HCI</p>
+      <p>collective liberation</p>
+      <p>moving to the Philippines</p>
     </div>
   );
 }
