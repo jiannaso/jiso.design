@@ -17,7 +17,7 @@ function Box({title, topx, lefty, widthx, heighty}) {
             // justifyContent: "space-between", 
              textAlign: "center"}}>
             {/* <p style={{color: "gray", textAlign: "left"}}>2025</p> */}
-            <p style={{marginTop: "1rem", color: "gray", fontSize: ".9rem"}}>{title}</p>
+            <p style={{marginTop: "1rem", color: "gray", fontSize: "12px"}}>{title}</p>
               </div>
             </div>
         </Draggable>
