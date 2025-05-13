@@ -1,24 +1,28 @@
 import '../App.css';
 import Draggable from 'react-draggable'; // Both at the same time
 import { useRef } from 'react';
+import ReactPlayer from 'react-player'
+import paghalo from '../media/paghalo.mov';
 
-function Box({title, topx, lefty, widthx, heighty}) {
+function Box({title, topx, lefty, widthx, heighty, url, text}) {
     const nodeRef = useRef(null);
     console.log("topx", topx);
     console.log("lefty", lefty);
   return (
     <div>
         <Draggable nodeRef={nodeRef}>
-          <div ref={nodeRef} style={{display: "flex", flexDirection: "column", position: "absolute", top: topx, left: lefty}}>
-            <div  className="small_box" style={{display: "flex", width: widthx+"px", height: heighty+"px"}}>
-            {/* <p style={{margin:"auto"}}>{title}</p> */}
+        <div ref={nodeRef} className={"draggable"} style={{display: "flex", flexDirection: "column", position: "absolute", top: topx, left: lefty}}>
+            <div className="small_box" style={{display: "flex", backgroundImage: "url(" + url + ")", backgroundSize: "cover", width: widthx+"px", height: heighty+"px"}}>
+            <video style={{height:"100%", width:"100%"}} autoPlay loop muted>
+                <source src={url} type='video/mp4' />
+            </video>
+            <p style={{margin:"auto"}}>{text}</p>
             </div>
             <div style={{display: "flex", flexDirection: "column", 
-            // justifyContent: "space-between", 
              textAlign: "center"}}>
-            {/* <p style={{color: "gray", textAlign: "left"}}>2025</p> */}
-            <p style={{marginTop: "1rem", color: "gray", fontSize: "12px"}}>{title}</p>
+            <p style={{marginTop: "1rem", fontSize: "12px"}}>{title}</p>
               </div>
+              <a href="jiso.play" style={{fontSize: "12px"}}>visit</a>
             </div>
         </Draggable>
     </div>

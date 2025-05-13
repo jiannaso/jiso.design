@@ -9,11 +9,13 @@ function Sidebar() {
       <p>honor our elders?</p>
 
       <h5 style ={{marginTop: "3rem"}}>PLAYING WITH</h5>
+      <p>speculative design</p>
       <p>fiber</p>
       <p>light</p>
-      <p>speculative design</p>
       <p>memory</p>
       <p>language</p>
+      <p>presence</p>
+
 
       <h5 style ={{marginTop: "3rem"}}>DREAMING OF</h5>
       <p>a theory of love for HCI</p>
