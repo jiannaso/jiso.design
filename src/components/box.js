@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import ReactPlayer from 'react-player'
 import paghalo from '../media/paghalo.mov';
 
-function Box({title, topx, lefty, widthx, heighty, url, text, link}) {
+function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText}) {
     const nodeRef = useRef(null);
     console.log("topx", topx);
     console.log("lefty", lefty);
@@ -28,7 +28,7 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link}) {
              textAlign: "center"}}>
             <p style={{marginTop: "1rem", fontSize: "12px"}}>{title}</p>
               </div>
-              <a href={link} target="_blank"style={{fontSize: "12px"}}>visit</a>
+              <a href={link} target="_blank"style={{fontSize: "12px"}}>{linkText}</a>
             </div>
         </Draggable>
     </div>
