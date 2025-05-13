@@ -67,7 +67,7 @@
 
 .small_box {
   background: rgba(255, 120, 172, .1);
-  transition: opacity, box-shadow 1s;
+  transition: 1s;
   opacity: 0.8;
   /* mix-blend-mode: hard-light; */
   /* filter: grayscale(100%);  */
