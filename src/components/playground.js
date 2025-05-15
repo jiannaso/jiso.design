@@ -5,8 +5,8 @@ import knit from '../media/knit.jpg';
 import flower from '../media/flower.mov';
 
 function Playground() {
-    const small = 200;
-    const large = 250;
+    const small = "13vw";
+    const large = "17vw";
     return (
         <div className="playground" style={{position: "absolute", top: "0", left: "0", width: "100vw", height: "100vh", overflow: "hidden", zIndex: "0"}}>
             <Box title={"CSCW 2024"} 
