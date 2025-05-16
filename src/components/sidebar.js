@@ -27,7 +27,7 @@ function Sidebar() {
       <p>collective liberation</p>
       <p>moving to the Philippines</p>
 
-      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>also on</h4>
+      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more {'\u2197'} </h4>
       <a target="_blank" href="https://www.instagram.com/jiso.play/?hl=en"><p>IG</p></a>
       <a target="_blank" href="https://www.are.na/ji-so/index"><p>are.na</p></a>
       <a target="_blank" href="https://jiannaso.substack.com/"><p>substack</p></a>
