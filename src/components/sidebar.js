@@ -27,11 +27,21 @@ function Sidebar() {
       <p>collective liberation</p>
       <p>moving to the Philippines</p>
 
-      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more {'\u2197'} </h4>
-      <a target="_blank" href="https://www.instagram.com/jiso.play/?hl=en"><p>IG</p></a>
-      <a target="_blank" href="https://www.are.na/ji-so/index"><p>are.na</p></a>
-      <a target="_blank" href="https://jiannaso.substack.com/"><p>substack</p></a>
-      <a target="_blank" href="https://www.goodreads.com/user/show/144995175-jianna-so"><p>goodreads</p></a>
+      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more
+      <span className={"link-arrow"}> {'\u2197'}</span>
+      </h4>
+      <a target="_blank" href="https://www.instagram.com/jiso.play/?hl=en"><p>IG 
+        {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
+        </p></a>
+      <a target="_blank" href="https://www.are.na/ji-so/index"><p>are.na
+      {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
+      </p></a>
+      <a target="_blank" href="https://jiannaso.substack.com/"><p>substack
+      {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
+      </p></a>
+      <a target="_blank" href="https://www.goodreads.com/user/show/144995175-jianna-so"><p>goodreads
+      {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
+      </p></a>
     </div>
   );
 }

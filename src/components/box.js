@@ -20,7 +20,7 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText}) {
             
             : 
             
-            <p style={{margin:"auto", width: "75%", textAlign: "left", lineHeight: "1rem"}}>{text}</p>
+            <p style={{margin:"auto", width: "75%", textAlign: "left", lineHeight: "1rem", fontFamily: "Vengeance"}}>{text}</p>
           }
             
             </div>
