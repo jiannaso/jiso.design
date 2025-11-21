@@ -1,16 +1,24 @@
-import './App.css';
-import Sidebar from './components/sidebar';
-import Header from './components/header';
-import Playground from './components/playground';
-// import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/home";
+import Blog from "./components/blog/blog-bikol";
+import PhilGraph from "./components/phil";
+import CraftClub from "./components/cozy-craft-club";
+import BlogResources from "./components/blog/blog-resources";
+import BlogBikol from "./components/blog/blog-bikol";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Sidebar />
-      <Playground />  
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="blog/resources" element={<BlogResources />} />
+          <Route path="blog/bikol" element={<BlogBikol />} />
+          <Route path="philosophy" element={<PhilGraph />} />
+          <Route path="craftclub" element={<CraftClub />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .hanken-grotesk-font {
   font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
 }
-
+     
 @font-face {
   font-family: Vengeance;
   src: url("./fonts/VengeanceSerif-Regular.woff2");
@@ -17,9 +26,49 @@
 
 .App {
   text-align: center;
-  /* width: 90%; */
   /* margin: auto; */
   font-family:  "Hanken Grotesk";
+  /* background-color: white; */
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+  /* height: 100vh; */
+  background-blend-mode: 'lighten';
+}
+
+.playgroundBox {
+  height: 600px;
+  padding: 5px;
+  background: radial-gradient(circle,rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, 0) 50%);
+  width: 900px;
+  margin: auto;
+  margin-top: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media (max-width: 799px) {
+  .playgroundBox {
+    width: 90vw;
+    max-width: 400px;
+    /* height: auto;
+    min-height: 300px;
+    padding: 1rem;
+    margin-top: 100px; */
+  }
+}
+
+.playground {
+  top: 0%;
+  left: 0%;
+  background-image: url('./media/sunset.jpg');
+
+}
+
+.playgroundText {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,14 +84,14 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 .App-link {
@@ -62,13 +111,20 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  /* width: 25%; */
+  width: 175px;
   text-align: left;
   position: fixed;
   top: 150px;
-  height: 75%;
+  /* height: 75%; */
   /* overflow: scroll; */
   padding-left: 2rem;
+  /* mix-blend-mode: hard-light; */
+}
+
+@media (max-width: 799px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 .header {
@@ -79,30 +135,67 @@
   width: 100%;
   margin: auto;
   padding: 2rem;
-  position: fixed;
+  /* position: fixed;  */
   top: 0;
   z-index: 200;
+  background: rgba(0,0,0,0);
+  /* mix-blend-mode: hard-light;
+  background-color: white; */
+
+  /* mix-blend-mode: difference; */
+  opacity: 1;
+}
+
+@media (max-width: 799px) {
+  .draggable {
+    display: none !important;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .header-text {
+    align-items: center !important;
+    text-align: center !important;
+    margin-top: 1rem;
+  }
+  
+  .logo {
+    width: 60px !important;
+    height: 60px !important;
+  }
 }
 
 .small_box {
-  background: rgba(255, 120, 172, .1);
+  background: rgba(255, 242, 247, .25);
   transition: 1s;
   opacity: .9;
-  /* mix-blend-mode: hard-light; */
-  /* filter: grayscale(100%);  */
+  mix-blend-mode: soft-light;
   box-shadow: 0px 0px 10px rgba(0,0,0, .15);
-  /* box-shadow: 0px 0px 10px rgba(255, 120, 172, .3); */
   z-index: 100;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 5px; 
+}
+
+.flower {
+  width: 200px; /* adjust to control the size */
+  aspect-ratio: 1;
+  mix-blend-mode: soft-light;
+  --g:/38.26% 38.26% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 78.363% 91.177% var(--g),19.603% 89.7% var(--g),2.85% 33.359% var(--g),51.257% 0.016% var(--g),97.926% 35.749% var(--g),radial-gradient(100% 100%,#000 25.476%,#0000 calc(25.476% + 1px));
+  background: rgba(255, 242, 247, .4);
+  transition: 1s;
+  text-align: center;
 }
 
 .draggable:hover .small_box {
   /* background: rgba(255, 120, 172, .3);
   color: black; */
-  filter: grayscale(0%);
   opacity: 1;
-  box-shadow: 0px 0px 20px rgba(255, 120, 172, .5);
+  box-shadow: 0px 0px 20px rgba(255, 120, 172, 1);
   background: rgba(255, 242, 247, 1);
   z-index: 200;
 }
@@ -126,13 +219,15 @@
     } 
 }
 
+
 p {
   margin: 3px 0;
-  font-size: 12px;
+  font-size: 16px;
+  /* text-align: center; */
 }
 
 h1, h2, h3, h4, h5 {
-  color: rgba(255, 120, 172);
+  /* color: rgba(255, 120, 172); */
   text-decoration: none;
   font-family: "Vengeance";
   /* text-shadow: 0px 0px 10px pink; */
@@ -141,6 +236,7 @@ h1, h2, h3, h4, h5 {
 .draggable {
   /* color: gray; */
   transition: color 0.5s;
+  mix-blend-mode: soft-light;
 }
 .draggable:hover {
   /* color: rgba(255, 120, 172); */
@@ -159,7 +255,11 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: gray;
+  /* color: gray;
+   */
+
+   color: rgba(255, 120, 172);
+
   text-decoration: none;
 }
 
@@ -171,4 +271,8 @@ a:hover {
   font-family: "Vengeance";
   font-size: 1rem;
   color: rgba(255, 120, 172);
+}
+
+#left {
+  text-align: left;
 }

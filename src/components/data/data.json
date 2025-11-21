@@ -1,0 +1,45 @@
+{
+    "nodes": [
+    {
+      "id": "I",
+      "fx": 0,
+      "fy": 0,
+      "pos": "goal",
+      "group": 0,
+      "radius": 40
+    },
+
+    {
+        "id": "want",
+        "fx": 200,
+        "fy": -100,
+        "pos": "person2",
+        "group": 0,
+        "radius": 30
+      },
+    {
+      "id": "love",
+      "fx": -40,
+      "fy": -30,
+      "pos": "person3",
+      "group": 0,
+      "radius": 30
+    },
+    {
+      "id": "to",
+      "fx": -200,
+      "fy": -50,
+      "pos": "person2",
+      "group": 0,
+      "radius": 30
+    }
+
+    ],
+    
+    "links": [
+                {"source": "I", "target": "want", "value": 1, "distance": 10 },
+                {"source": "to", "target": "love", "value": 1, "distance": 10 },
+                {"source": "want", "target": "to", "value": 1, "distance": 10 }
+   
+    ]
+  }
