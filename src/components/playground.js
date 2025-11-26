@@ -26,8 +26,9 @@ function Playground() {
     let hours = date.getHours();
     let minutes = date.getMinutes();
     
+    hours = hours + 16; // Convert to PhST (UTC+8)
     // Check whether AM or PM
-    let newformat = hours >= 12 ? "PM" : "AM";
+    let newformat = hours % 24 >= 12 ? "PM" : "AM";
     
     // Find current hour in AM-PM Format
     hours = hours % 12;
@@ -217,12 +218,16 @@ function Playground() {
                 </div>
                 
             </div>
-            
-        </div>
-        <div style={{ position: '', top: '', left: '', color: pinkColor, zIndex: '100' }}>
-                        <p style={{ margin: '0px', fontSize: '', marginTop: "-45px", color: "black"}}>
-                            Sunset in my grandma's hometown (Matnog, Bicol, Philippines). Local time: {showTime} PhST </p>
+            <div style={{ position: '', top: '', left: '', color: '', zIndex: '100', margin:'auto' }}>
+                        <h3 style={{ margin: '0px', fontSize: '', marginTop: "", color: "black"}}>
+                            sunset in my grandma's hometown
+                            </h3>
+                            <p>Matnog, Sorsogon, Philippines 
+                                <br></br>
+                                {showTime} PhST </p>
                     </div>
+        </div>
+        
         </div>
 
         

@@ -62,6 +62,7 @@ html, body {
   top: 0%;
   left: 0%;
   background-image: url('./media/sunset.jpg');
+  flex-direction: column;
 
 }
 
@@ -113,12 +114,16 @@ html, body {
   align-items: left;
   width: 175px;
   text-align: left;
-  position: fixed;
+  position: absolute;
   top: 150px;
   /* height: 75%; */
   /* overflow: scroll; */
   padding-left: 2rem;
   /* mix-blend-mode: hard-light; */
+}
+
+.sidebar a {
+  color: black;
 }
 
 @media (max-width: 799px) {
@@ -223,6 +228,7 @@ html, body {
 p {
   margin: 3px 0;
   font-size: 16px;
+  line-height: 150%;
   /* text-align: center; */
 }
 
@@ -230,6 +236,9 @@ h1, h2, h3, h4, h5 {
   /* color: rgba(255, 120, 172); */
   text-decoration: none;
   font-family: "Vengeance";
+  margin-top: 0rem;
+  line-height: 150%;
+
   /* text-shadow: 0px 0px 10px pink; */
 }
 
@@ -275,4 +284,74 @@ a:hover {
 
 #left {
   text-align: left;
+}
+
+/* Blog component classes */
+.blog-container {
+  width: 70%;
+  margin: auto;
+}
+
+.blog-container-narrow {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.blog-title {
+  color: black;
+  padding-top: 5rem;
+}
+
+.blog-title-small {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.blog-subtitle {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+}
+
+.blog-quote {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 80%;
+  margin: auto;
+}
+
+.blog-meta {
+  text-align: center;
+}
+
+.info-list-item {
+  display: flex;
+  flex-direction: row;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0, .1));
+  border: #000;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.info-list-text{
+  padding: 20px
+}
+.info-list-image {
+  width: 50%;
+  height: 50%;
+  margin-left: 20px;
+}
+
+@media (max-width: 799px) {
+  .info-list-item {
+    flex-direction: column !important;
+  }
+  
+  .info-list-image {
+    width: 100% !important;
+    margin:0;
+  }
 }

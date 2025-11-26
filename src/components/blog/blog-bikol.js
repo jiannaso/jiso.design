@@ -5,20 +5,20 @@ function BlogBikol() {
   return (
     <div className="App">
       <Header pos={''} blend={'normal'}/>
-      <div style={{width: '70%', margin: 'auto'}}>
+      <div className="blog-container">
 
-      <h1 style = {{color: 'black', paddingTop: '16rem'}}>
+      <h1 className="blog-title">
         Filipino language is hyperlocal
       </h1>
       <h3>
       A love letter to Bikol for Filipino-American History Month
       </h3>
-      <p style={{textAlign: 'center'}}>October 31, 2025 ✿ Reading time: 5 minutes</p>
+      <p className="blog-meta">October 31, 2025 ✿ Reading time: 5 minutes</p>
 
 
       <p>
       <br></br>
-<div style={{textAlign: 'center', paddingTop: '3rem', paddingBottom: '3rem'}}>
+<div className="blog-quote">
   <h3>''Ang hindi magmahal sa sariling wika, daig pa ang hayop at malansang isda''</h3>
 
 <i>One who does not love his own language is worse than an animal and a smelly fish. </i>
