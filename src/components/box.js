@@ -63,12 +63,12 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText, po
             <div style={{display: "flex", flexDirection: "column", 
              textAlign: "center"}}>
               {title !== 'sticker' ?
-                <p style={{marginTop: "1rem", fontSize: "12px", color: 'gray'}}>{title}</p>
+                <p style={{marginTop: "1rem", fontSize: "12px", color: 'white'}}>{title}</p>
                 :
                 null
               }
               </div>
-              <a href={link} target="_blank"style={{fontSize: "12px"}}>{linkText}</a>
+              <a href={link} target="_blank"style={{fontSize: "12px", color:'white'}}>{linkText}</a>
             </div>
         </Draggable>
     </div>

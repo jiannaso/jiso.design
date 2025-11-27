@@ -290,6 +290,7 @@ a:hover {
 .blog-container {
   width: 70%;
   margin: auto;
+  padding-bottom: 5rem;
 }
 
 .blog-container-narrow {

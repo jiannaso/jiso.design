@@ -10,6 +10,7 @@ import BlogBonnet from "./components/blog/blog-bonnet";
 import BlogMain from "./components/blog/blog";
 import BlogReading from "./components/blog/blog-reading";
 import BlogHandcrafted from "./components/blog/blog-handcrafted";
+import BlogLove from "./components/blog/blog-love";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
           <Route path="blog" element={<BlogMain />} />
           <Route path="blog/reading" element={<BlogReading />} />
           <Route path="blog/handcrafted" element={<BlogHandcrafted />} />
+          <Route path="blog/love" element={<BlogLove />} />
 
           <Route path="blog/philosophy" element={<PhilGraph />} />
           <Route path="craft/club" element={<CraftClub />} />

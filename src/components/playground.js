@@ -107,7 +107,7 @@ function Playground() {
                 <Box
                     title={"sticker"}
                     topx={"200px"}
-                    lefty={"calc(50vw - 30vw - 50px)"}
+                    lefty={"calc(50vw - 30vw - 40px)"}
                     widthx={sticker}
                     heighty={sticker}
                     url={flowerSticker2}
@@ -115,8 +115,8 @@ function Playground() {
 
                 <Box
                     title={"sticker"}
-                    topx={"530px"}
-                    lefty={"calc(50vw + 34vw - 50px)"}
+                    topx={"590px"}
+                    lefty={"calc(50vw + 34vw - 20px)"}
                     widthx={sticker}
                     heighty={sticker}
                     url={flowerSticker1}
@@ -132,8 +132,8 @@ function Playground() {
             text={null}/> */}
 
                 <Box title={"CSCW 2024"}
-                    topx={"300px"}
-                    lefty={"calc(50vw - 32vw - 100px)"}
+                    topx={"350px"}
+                    lefty={"calc(50vw - 32vw - 70px)"}
                     widthx={small}
                     heighty={small}
                     url={''}
@@ -143,7 +143,7 @@ function Playground() {
 
                 <Box title={"CSCW 2025"}
                     topx={"570px"}
-                    lefty={"calc(50vw + 10vw - 150px)"}
+                    lefty={"calc(50vw + 10vw - 100px)"}
                     widthx={large}
                     heighty={large}
                     link={"https://kgajos.seas.harvard.edu/papers/so2025bridging.pdf"}
@@ -152,8 +152,8 @@ function Playground() {
 
 
                 <Box title={"Projection art"}
-                    topx={"400px"}
-                    lefty={"calc(50vw + 20vw - 150px)"}
+                    topx={"350px"}
+                    lefty={"calc(50vw + 20vw - 50px)"}
                     widthx={large}
                     heighty={large}
                     url={closeted}
@@ -161,15 +161,15 @@ function Playground() {
 
                 <Box title={"Interactive Knit Patterns"}
                     topx={"110px"}
-                    lefty={"calc(50vw - 25vw - 150px)"}
+                    lefty={"calc(50vw - 25vw - 30px)"}
                     widthx={large}
                     heighty={large}
                     url={knit}
                 />
 
                 <Box title={"Paghalo"}
-                    topx={"180px"}
-                    lefty={"calc(50vw + 10vw - 100px)"}
+                    topx={"220px"}
+                    lefty={"calc(50vw + 10vw - 50px)"}
                     widthx={small}
                     heighty={small}
                     url={paghalo}

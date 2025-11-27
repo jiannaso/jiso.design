@@ -14,52 +14,57 @@ function BlogMain() {
   {
     id: 1,
     title: 'Resources',
-    name: 'On community, mentorship + grad school apps, and my favorite references (books, papers, scholars)',
-    desc: 'November 2025',
+    name: 'On community, mentorship, grad school apps, and references',
+    desc: 'Last updated: November 2025',
     link: '/blog/resources',
     linkname: 'Read',
   }, {
     title: 'How love shapes time, how time scales, how we make the invisible tangible',
     name: 'Stream of consciousness on breakups, ocd, and disease. Also hopecore!',
     desc: 'October 2025',
-    link: '/craft/bonnet',
+    link: '/blog/love',
     linkname: 'Read',
   },
   {
     title: 'Reading journal',
     name: 'Short book reviews, favorite quotes',
-    desc: 'October 2025',
+    desc: 'Last updated: November 2025',
     link: '/blog/reading',
     linkname: 'Read',
   },
 
   {
     title: 'Crafting this website',
-    name: 'Frameworks, references, and tools',
-    desc: 'October 2025',
-    link: '/craft/bonnet',
+    name: 'Frameworks, philosophy, and tools',
+    desc: 'August 2025',
+    link: '/blog/handcrafted',
     linkname: 'Read',
   }
 
   ]
 
   return (
-    <div className="App">
+    <div className="App" style={{ paddingBottom: '' }}>
       <Header pos={''} blend={'normal'} />
       <div className="blog-container">
 
         <h1 className="blog-title">
-          jiso.blog
+          jiso.design.blog
         </h1>
         <h3>
           {/* jiso.blog */}
         </h3>
         <p className="blog-meta">
           Frequently updated:
-          <br></br> <a>Resources</a>, <a>Reading journal</a>, <a>Design philosophy</a>
-        {/* Total posts: {blogs.length} */}
+          <br></br> 
+          <a href='blog/resources'>Resources</a>
+          <br></br>
+          <a href='blog/reading'>Reading journal</a>
+          
+           {/* <a href='blog/philosophy'>Design philosophy</a> */}
+          {/* Total posts: {blogs.length} */}
         </p>
-        
+
 
         <p>
           <br></br>
@@ -73,12 +78,18 @@ function BlogMain() {
 
 
 
-            <h2 style ={{textAlign:'center'}}>Latest</h2>
-
-            <InfoList people={blogs} />
 
           </p>
         </p>
+      </div>
+      <div id='left' style={{ backgroundColor: "#F3F3F3", paddingBottom: '6rem',marginTop: '5rem', paddingTop: '3rem' }}>
+
+        <div style={{ width: "60%", margin: 'auto' }}>
+          <h2 style={{ textAlign: 'center',}}>Latest</h2>
+
+          <InfoList people={blogs} />
+        </div>
+
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ function Sidebar() {
     <div className="sidebar" style={{zIndex: "100"}}>
 
       
-      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more
-      <span className={"link-arrow"}> {'\u2197'}</span>
+      <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more {'\u2197'}
+      {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </h4>
-      <div style={{color:'white'}}>
+      <div style={{color:''}}>
 
       <a target="_blank" href="/blog"><p>blog 
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}

@@ -39,6 +39,14 @@ Many people over the years have lent me a hand, whether it was giving me advice,
 <br></br>
 <br></br>
 Here are some great resources about applying to grad school, and what the reality of grad school is like:
+<ul>
+    <li><a href='https://crystaljjlee.com/blog/how-i-did-my-phd/'>How I did my PhD</a> (Crystal Lee)</li>
+    <li><a href='https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf'>Applying to Ph.D. Programs in Computer Science</a> (Mor Harchol-Balter)</li>
+    <li><a href='https://www.youtube.com/watch?v=B5-lrCaGLOw'>5 Things to Do in a Statement of Purpose for PhD/Grad School | PhD SOP + an example (mine!)</a> (Casey Fiesler)</li>
+    <li><a href='https://kgajos.seas.harvard.edu/join-our-group/for-prospective-phd-students/'>For Prospective PhD Students
+</a> (Krzysztof Gajos, my PhD advisor)</li>
+    <li><a href='https://docs.google.com/document/d/10bWPCCgyPZV7xgOaZST6QZZ-fG5JVSL0lEl3axglR6Y/edit?tab=t.0'>My materials</a> (me!)</li>
+</ul>
             </p>
 
             <h2 className="blog-subtitle">Resources</h2>
@@ -46,7 +54,7 @@ Here are some great resources about applying to grad school, and what the realit
 My favorite books, papers, and scholars who shape my work. Email me for a PDF!
 <br></br>
 <br></br>
-Theory:
+<h3>Theory</h3>
 <ul>
     <li>Teaching to Transgress (bell hooks)</li>
     <li>Giving Bodies Back to Data: Image Makers, Bricolage, and Reinvention in Magnetic Resonance Technology (Silvia Casini)</li>
@@ -60,8 +68,9 @@ Theory:
 
 
 </ul>
+<h3>Methodology</h3>
 
-Methodology<ul>
+<ul>
     <li>Reflexive Thematic Analysis (Braun and Clarke) <a href='https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2129597'>[paper]</a></li>
     <li><a href='https://experimentology.io/'>Experimentology</a></li>
 </ul>
