@@ -144,8 +144,8 @@ function Playground() {
                     text={'Designing Ethical Health Technology with and for Older Adults'} />
 
                 <Box title={"CSCW 2025"}
-                    topx={"570px"}
-                    lefty={"calc(50vw + 10vw - 100px)"}
+                    topx={"590px"}
+                    lefty={"calc(50vw + 10vw - 70px)"}
                     widthx={larger}
                     heighty={larger}
                     link={"https://kgajos.seas.harvard.edu/papers/so2025bridging.pdf"}
@@ -155,7 +155,7 @@ function Playground() {
 
                 <Box title={"Projection art"}
                     topx={"350px"}
-                    lefty={"calc(50vw + 20vw - 50px)"}
+                    lefty={"calc(50vw + 20vw - 30px)"}
                     widthx={large}
                     heighty={large}
                     url={closeted}
@@ -171,7 +171,7 @@ function Playground() {
 
                 <Box title={"Paghalo"}
                     topx={"220px"}
-                    lefty={"calc(50vw + 10vw - 50px)"}
+                    lefty={"calc(50vw + 10vw - 30px)"}
                     widthx={small}
                     heighty={small}
                     url={paghalo}
@@ -185,7 +185,7 @@ function Playground() {
 
                 <Box title={"HarvardxDesign 2024: Co x Garden"}
                     url={flower}
-                    topx={"600px"}
+                    topx={"650px"}
                     lefty={"calc(50vw - 18vw - 100px)"}
                     widthx={small}
                     heighty={small}
@@ -195,26 +195,26 @@ function Playground() {
                     shape={'round'} />
             </div>
             <div className='playgroundBox'>
-                <div className='playgroundText' style={{paddingTop: '5rem'}}>
+                <div className='playgroundText' style={{paddingTop: '3rem'}}>
 
-                    <h2 style={{ lineHeight: "150%", color: 'black', marginBottom: ".5rem", }}> this is a  playground to
+                    <h1 style={{ lineHeight: "150%", color: 'black', marginBottom: ".5rem", }}> this is a  playground to
                         {/* <s style={{color:"gray"}}>portfolio</s> {'\u00A0'}  */}
-                        <br></br> <span style={{ textDecoration: "underline", textDecorationColor: "rgba(255, 120, 172)", textUnderlineOffset: "10px", textDecorationThickness: "1px", color: dreamColor }}> {dreams[dream]}</span></h2>
+                        <br></br> <span style={{ textDecoration: "underline", textDecorationColor: "rgba(255, 120, 172)", textUnderlineOffset: "10px", textDecorationThickness: "1px", color: dreamColor }}> {dreams[dream]}</span></h1>
 
 
 
                     <button style={{ border: 'none', backgroundColor: 'transparent', color: 'rgba(255, 120, 172)', margin: '0px' }} onClick={handleDreamClick}>
-                        <p style={{ fontSize: '.75rem', fontWeight: 'normal' }}>{dream + 1} {'\u00A0'} / {'\u00A0'} {dreams.length}</p>
+                        <p style={{ fontSize: '', fontWeight: 'normal' }}>{dream + 1} {'\u00A0'} / {'\u00A0'} {dreams.length}</p>
                     </button>
 
-                    <div style={{ position: 'relative', top: '-120px', left: '150px', color: pinkColor }}>
+                    {/* <div style={{ position: 'relative', top: '-180px', left: '150px', color: pinkColor }}>
                         <p style={{ margin: '0px', fontSize: '1.5rem' }}>⋆˙⟡</p>
                     </div>
 
                     <div style={{ position: 'relative', top: '-40px', left: '-160px', color: pinkColor, zIndex: '100' }}>
                         <p style={{ margin: '0px', fontSize: '1.5rem' }}>
                             ✿</p>
-                    </div>
+                    </div> */}
 
                     
                 </div>

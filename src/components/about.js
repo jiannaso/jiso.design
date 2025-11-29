@@ -94,7 +94,7 @@ export const About = () => {
     <div>
     <div style={{ padding: "5% 15% 0 15%", margin: 'auto', paddingTop: '5rem', textAlign: "", backgroundColor: "" }}>
 
-      <div style={{ display: "flex", flexDirection: "row", alignItems: 'center' }}>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: 'center', width:'', margin: "auto" }}>
 
         <div style={{ paddingRight: '' }}>
 
@@ -142,8 +142,8 @@ export const About = () => {
     <li>Computational knitting</li>
     <li>Movement as memory, shadows as canvas</li>
 </ul> */}
-        <div style={{ display: 'flex', flexDirection: "row", alignItems: 'center' }}>
-          <div style={{ marginRight: '30px', width: '100%' }}>
+        <div className = 'currently-box' style={{ display: 'flex', flexDirection: "row", alignItems: 'center' }}>
+          <div style={{ paddingRight: '2rem', width: '100%' }}>
             <h2 style={{ textAlign: "left", margin: "0", marginBottom: '30px' }}>Currently</h2>
 
             <b>I am a Harvard PhD candidate in Computer Science advised by Professor <a href='https://kgajos.seas.harvard.edu/'>Krzysztof Gajos</a> in the <a href='https://iis.seas.harvard.edu/'>Intelligent Interactive Systems</a>  group.  </b>I study how ambient and sensor-based technology can be built more accessibly and ethically, especially for older adults (ie. who live in underserved areas). 
@@ -151,17 +151,17 @@ export const About = () => {
             
             <br></br><br></br> 
             In my research, I collaborate with the <a href='https://www.massgeneral.org/neurology/research/laboratory-for-deep-neurophenotyping'>Laboratory for Deep Neurophenotyping
-            </a> at Massachusetts General Hospital (MGH) to explore how multimodal digital phenotyping data from <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> (pictured right) can help patients with neurodegenerative diseases understand themselves and communicate their condition. My work is supported by a grant from the Harvard Data Science Initiative.
+            </a> at Massachusetts General Hospital (MGH) to explore how multimodal digital phenotyping data from <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> (pictured) can help patients with neurodegenerative diseases understand themselves and communicate their condition. My work is supported by a grant from the Harvard Data Science Initiative.
             <br></br>
             <br></br>
 
            I am also an incoming 
            <a href='https://globalprograms.hms.harvard.edu/global-primary-health-care/global-primary-care-student-scholars'> Global Primary Health Care Scholar </a>
-            at Harvard Medical School, working on the <a href='https://globalprograms.hms.harvard.edu/global-primary-health-care/stitch-project'>StITCH</a> project for improving hepatitis care at the University of the Philippines, Manila. 
+            at Harvard Medical School, working on the <a href='https://globalprograms.hms.harvard.edu/global-primary-health-care/stitch-project'>StITCH</a> project for improving hepatitis care at the University of the Philippines (UP) Manila. 
           </div>
 
 
-          <div style={{ textAlign: 'center', width: '100%' }}>
+          <div className='currently-img' style={{ textAlign: 'center', width: '100%', paddingTop: '3rem'}}>
             <img src={require('../media/projects/neurobooth.jpg')} style={{ width: '100%', margin: 'auto' }} />
             <br></br>
 
