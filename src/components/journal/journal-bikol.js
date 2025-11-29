@@ -1,7 +1,7 @@
 import '../../App.css';
 import Header from '../header';
 
-function BlogBikol() {
+function JournalBikol() {
   return (
     <div className="App">
       <Header pos={''} blend={'normal'}/>
@@ -74,4 +74,4 @@ ji
   );
 }
 
-export default BlogBikol;
+export default JournalBikol;

@@ -15,6 +15,8 @@ function Playground() {
     const pinkColor = 'rgba(255, 120, 172)'
     const small = "200px";
     const large = "300px";
+    const larger = "325px";
+
     const sticker = "100px";
 
     const [dream, setDream] = useState(0);
@@ -144,11 +146,11 @@ function Playground() {
                 <Box title={"CSCW 2025"}
                     topx={"570px"}
                     lefty={"calc(50vw + 10vw - 100px)"}
-                    widthx={large}
-                    heighty={large}
+                    widthx={larger}
+                    heighty={larger}
                     link={"https://kgajos.seas.harvard.edu/papers/so2025bridging.pdf"}
                     linkText={"read"}
-                    text={"Bridging Ontologies of Neurological Conditions: Towards Patient-centered Data Practices in Digital Phenotyping Research and Design"} />
+                    text={"Bridging Ontologies of Neurological Conditions: Towards Patient-Centered Data Practices in Digital Phenotyping Research and Design"} />
 
 
                 <Box title={"Projection art"}
@@ -218,13 +220,14 @@ function Playground() {
                 </div>
                 
             </div>
-            <div style={{ position: '', top: '', left: '', color: '', zIndex: '100', margin:'auto' }}>
+            <div style={{ opacity: '.8', position: '', top: '', left: '', color: '', zIndex: '100', margin:'auto' }}>
                         <h3 style={{ margin: '0px', fontSize: '', marginTop: "", color: "black"}}>
-                            sunset in my grandma's hometown
+                            sunset in my lola's hometown
                             </h3>
                             <p>Matnog, Sorsogon, Philippines 
                                 <br></br>
-                                {showTime} PhST </p>
+                                {/* current time: {showTime} PhST  */}
+                                </p>
                     </div>
         </div>
         

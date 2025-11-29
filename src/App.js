@@ -1,30 +1,29 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
-import Blog from "./components/blog/blog-bikol";
 import PhilGraph from "./components/phil";
 import CraftClub from "./components/cozy-craft-club";
-import BlogResources from "./components/blog/blog-resources";
-import BlogBikol from "./components/blog/blog-bikol";
-import BlogBonnet from "./components/blog/blog-bonnet";
-import BlogMain from "./components/blog/blog";
-import BlogReading from "./components/blog/blog-reading";
-import BlogHandcrafted from "./components/blog/blog-handcrafted";
-import BlogLove from "./components/blog/blog-love";
+import JournalResources from "./components/journal/journal-resources";
+import JournalBikol from "./components/journal/journal-bikol";
+import JournalBonnet from "./components/journal/journal-bonnet";
+import JournalMain from "./components/journal/journal";
+import JournalReading from "./components/journal/journal-reading";
+import JournalHandcrafted from "./components/journal/journal-handcrafted";
+import JournalLove from "./components/journal/journal-love";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path="blog/resources" element={<BlogResources />} />
-          <Route path="blog/bikol" element={<BlogBikol />} />
-          <Route path="craft/bonnet" element={<BlogBonnet />} />
-          <Route path="blog" element={<BlogMain />} />
-          <Route path="blog/reading" element={<BlogReading />} />
-          <Route path="blog/handcrafted" element={<BlogHandcrafted />} />
-          <Route path="blog/love" element={<BlogLove />} />
+          <Route path="journal/resources" element={<JournalResources />} />
+          <Route path="journal/bikol" element={<JournalBikol />} />
+          <Route path="craft/bonnet" element={<JournalBonnet />} />
+          <Route path="journal" element={<JournalMain />} />
+          <Route path="journal/reading" element={<JournalReading />} />
+          <Route path="journal/handcrafted" element={<JournalHandcrafted />} />
+          <Route path="journal/love" element={<JournalLove />} />
 
-          <Route path="blog/philosophy" element={<PhilGraph />} />
+          <Route path="journal/philosophy" element={<PhilGraph />} />
           <Route path="craft/club" element={<CraftClub />} />
 
       </Routes>

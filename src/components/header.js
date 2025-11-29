@@ -7,7 +7,9 @@ function Header({ pos, blend }) {
   return (
     <div>
       <div className="header" style={{ position: pos, mixBlendMode: "normal" }}>
+        <a href='/'>
         <img className="logo" src={flowerSticker} alt="flower" style={{ width: "100px", height: "100px" }} />
+        </a>
 
         <div className="header-text" style={{ display: "flex", flexDirection: "column", alignItems: "right", textAlign: "right" }}>
           <h1 style={{ marginBottom: ".5rem", marginBottom: "0", color: "black" }}><span style={{ fontFeatureSettings: '"ss01"' }}>jianna</span> so

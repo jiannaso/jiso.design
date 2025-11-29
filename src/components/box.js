@@ -18,6 +18,7 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText, po
     let boxClass = "sticker";
     let stickerUrl = url;
     let leftynew = lefty;
+    let widthnew = widthx + 20;
     // console.log(title)
     if(title==="sticker")  {
       // setSticker("");
@@ -35,12 +36,14 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText, po
 
     if(linkText==='read') {
       boxClass='flower';
+
+
     } else {}
 
   return (
     <div>
         <Draggable nodeRef={nodeRef}>
-        <div ref={nodeRef} className={"draggable"} style={{display: "flex", flexDirection: "column", position: pos, width: widthx, top: topx, left: leftynew}}>
+        <div ref={nodeRef} className={"draggable"} style={{display: "flex", flexDirection: "column", position: pos, width: widthnew, top: topx, left: leftynew}}>
         <div style={{filter: 'drop-shadow(0rem 0rem 0.4rem rgba(0, 0, 0, 0.25))'}}>
             <div className={boxClass} style={{display: "flex", borderRadius: borderRadius, backgroundImage: "url(" + url + ")", backgroundSize: "cover", width: widthx, height: heighty}}>
             {text === null ? <video style={{height:"100%", width:"100%"}} autoPlay loop muted>
@@ -49,11 +52,11 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText, po
             
             : 
             
-            <p style={{padsding:'10px',margin:"auto", width: "60%", textAlign: "center", lineHeight: "1rem", fontFamily: "Vengeance"}}>{text}</p>
+            <p style={{padding:'',margin:"auto", width: "55%", textAlign: "center", lineHeight: "120%", fontFamily: "Vengeance"}}>{text}</p>
           }
 
           {title === "sticker" ? 
-            <div style={{backgroundImage: "url(" + stickerUrl + ")", width: widthx, height: widthx, position:'absolute', backgroundSize: "cover"}} className="logo" alt="flower"/>
+            <div style={{backgroundImage: "url(" + stickerUrl + ")", width: widthx, height: widthx, position:'absolute', backgroundSize: "cover"}} className="" alt="flower"/>
             :
             null
           }
@@ -62,13 +65,13 @@ function Box({title, topx, lefty, widthx, heighty, url, text, link, linkText, po
             </div>
             <div style={{display: "flex", flexDirection: "column", 
              textAlign: "center"}}>
-              {title !== 'sticker' ?
+              {/* {title !== 'sticker' ?
                 <p style={{marginTop: "1rem", fontSize: "12px", color: 'white'}}>{title}</p>
                 :
                 null
-              }
+              } */}
               </div>
-              <a href={link} target="_blank"style={{fontSize: "12px", color:'white'}}>{linkText}</a>
+              {/* <a href={link} target="_blank"style={{fontSize: "12px", color:'white'}}>{linkText}</a> */}
             </div>
         </Draggable>
     </div>

@@ -2,13 +2,13 @@ import '../../App.css';
 import Header from '../header';
 import InfoList from '../infoList';
 
-function BlogMain() {
-  const blogs = [{
+function journalMain() {
+  const journals = [{
     id: 0,
     title: 'Filipino language is hyperlocal',
     name: 'On my family\'s dialect, heritage languages, and a lifetime of intentional cultural learning',
     desc: 'October 2025',
-    link: '/blog/bikol',
+    link: '/journal/bikol',
     linkname: 'Read',
   },
   {
@@ -16,20 +16,20 @@ function BlogMain() {
     title: 'Resources',
     name: 'On community, mentorship, grad school apps, and references',
     desc: 'Last updated: November 2025',
-    link: '/blog/resources',
+    link: '/journal/resources',
     linkname: 'Read',
   }, {
     title: 'How love shapes time, how time scales, how we make the invisible tangible',
     name: 'Stream of consciousness on breakups, ocd, and disease. Also hopecore!',
     desc: 'October 2025',
-    link: '/blog/love',
+    link: '/journal/love',
     linkname: 'Read',
   },
   {
     title: 'Reading journal',
     name: 'Short book reviews, favorite quotes',
     desc: 'Last updated: November 2025',
-    link: '/blog/reading',
+    link: '/journal/reading',
     linkname: 'Read',
   },
 
@@ -37,7 +37,7 @@ function BlogMain() {
     title: 'Crafting this website',
     name: 'Frameworks, philosophy, and tools',
     desc: 'August 2025',
-    link: '/blog/handcrafted',
+    link: '/journal/handcrafted',
     linkname: 'Read',
   }
 
@@ -49,20 +49,20 @@ function BlogMain() {
       <div className="blog-container">
 
         <h1 className="blog-title">
-          jiso.design.blog
+          jiso.journal
         </h1>
         <h3>
-          {/* jiso.blog */}
+          {/* jiso.journal */}
         </h3>
         <p className="blog-meta">
-          Frequently updated:
+        🌱 Evergreen pages:
           <br></br> 
-          <a href='blog/resources'>Resources</a>
+          <a href='journal/resources'>Resources</a>
           <br></br>
-          <a href='blog/reading'>Reading journal</a>
+          <a href='journal/reading'>Reading journal</a>
           
-           {/* <a href='blog/philosophy'>Design philosophy</a> */}
-          {/* Total posts: {blogs.length} */}
+           {/* <a href='journal/philosophy'>Design philosophy</a> */}
+          {/* Total posts: {journals.length} */}
         </p>
 
 
@@ -87,7 +87,7 @@ function BlogMain() {
         <div style={{ width: "60%", margin: 'auto' }}>
           <h2 style={{ textAlign: 'center',}}>Latest</h2>
 
-          <InfoList people={blogs} />
+          <InfoList people={journals} />
         </div>
 
       </div>
@@ -95,4 +95,4 @@ function BlogMain() {
   );
 }
 
-export default BlogMain;
+export default journalMain;

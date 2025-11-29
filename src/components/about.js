@@ -96,11 +96,11 @@ export const About = () => {
 
       <div style={{ display: "flex", flexDirection: "row", alignItems: 'center' }}>
 
-        <div style={{ paddingRight: '5%' }}>
+        <div style={{ paddingRight: '' }}>
 
           {/* IMAGE */}
 
-          <img src={jianna} className="" alt="Jianna So" style={{ width: "350px", height: "350px", padding: "20px", borderRadius: "1000px" }} />
+          <img src={jianna} className="" alt="Jianna So" style={{ width: "200px", height: "200px", padding: "20px", borderRadius: "1000px" }} />
 
           <h1 style={{ textAlign: 'left' }}> </h1>
 
@@ -109,7 +109,7 @@ export const About = () => {
           <h2 style={{ textAlign: 'center' }}>
             I create to help us remember ourselves, care for each other, & honor our elders. </h2>
           <p id="left">
-            <b>I explore these dreams through computer science research, installation projection art, essays, and textile work.</b> My practice is heavily influenced by critical theory, feminist frameworks, disability studies, and medical anthropology. Here are my <a href="/blog/resources"> favorite resources.</a>
+            <b>I explore these dreams through computer science research, installation projection art, essays, and textile work.</b> My practice is heavily influenced by critical theory, feminist frameworks, disability studies, and medical anthropology. All of my inspiration can be traced back to my family. Here are my <a href="/journal/resources"> favorite resources.</a>
 
           </p>
           {/* 
@@ -146,9 +146,18 @@ export const About = () => {
           <div style={{ marginRight: '30px', width: '100%' }}>
             <h2 style={{ textAlign: "left", margin: "0", marginBottom: '30px' }}>Currently</h2>
 
-            <b>I am a PhD candidate at Harvard advised by Professor <a href='https://kgajos.seas.harvard.edu/'>Krzysztof Gajos</a> in the <a href='https://iis.seas.harvard.edu/'>Intelligent Interactive Systems</a>  group.  </b>I study how ambient and sensor-based technology can be built more accessibly and ethically, especially for older adults (ie. who live in underserved areas). <br></br><br></br> In my research, I collaborate with the <a href='https://www.massgeneral.org/neurology/research/laboratory-for-deep-neurophenotyping'>Laboratory for Deep Neurophenotyping
-            </a> at Massachusetts General Hospital (MGH) to explore how multimodal digital phenotyping data from <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> (pictured right) can help patients with neurodegenerative diseases understand themselves and communicate their condition.
+            <b>I am a Harvard PhD candidate in Computer Science advised by Professor <a href='https://kgajos.seas.harvard.edu/'>Krzysztof Gajos</a> in the <a href='https://iis.seas.harvard.edu/'>Intelligent Interactive Systems</a>  group.  </b>I study how ambient and sensor-based technology can be built more accessibly and ethically, especially for older adults (ie. who live in underserved areas). 
+            {/* My first-author papers have received top awards at Human-Computer Interaction conferences.  */}
+            
+            <br></br><br></br> 
+            In my research, I collaborate with the <a href='https://www.massgeneral.org/neurology/research/laboratory-for-deep-neurophenotyping'>Laboratory for Deep Neurophenotyping
+            </a> at Massachusetts General Hospital (MGH) to explore how multimodal digital phenotyping data from <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> (pictured right) can help patients with neurodegenerative diseases understand themselves and communicate their condition. My work is supported by a grant from the Harvard Data Science Initiative.
             <br></br>
+            <br></br>
+
+           I am also an incoming 
+           <a href='https://globalprograms.hms.harvard.edu/global-primary-health-care/global-primary-care-student-scholars'> Global Primary Health Care Scholar </a>
+            at Harvard Medical School, working on the <a href='https://globalprograms.hms.harvard.edu/global-primary-health-care/stitch-project'>StITCH</a> project for improving hepatitis care at the University of the Philippines, Manila. 
           </div>
 
 
@@ -156,7 +165,7 @@ export const About = () => {
             <img src={require('../media/projects/neurobooth.jpg')} style={{ width: '100%', margin: 'auto' }} />
             <br></br>
 
-            <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> at MGH Neurology
+            {/* <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> at MGH Neurology */}
           </div>
         </div>
       </p>
@@ -195,13 +204,13 @@ export const About = () => {
         <br></br>
       </p>
 
-      <img src={require('../media/projects/swr.png')} style={{ width: '50%', padding: '5px' }} />
-      <img src={require('../media/projects/aclu.png')} style={{ width: '50%', padding: '5px' }} />
-      <img src={require('../media/projects/booked.png')} style={{ width: '50%', padding: '5px' }} />
-      <img src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '5px' }} />
+      <img src={require('../media/projects/swr.png')} style={{ width: '50%', padding: '3px' }} />
+      <img src={require('../media/projects/aclu.png')} style={{ width: '50%', padding: '3px' }} />
+      <img src={require('../media/projects/booked.png')} style={{ width: '50%', padding: '3px',paddingTop: '0px'  }} />
+      <img src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '3px', paddingTop: '0px' }} />
 
 
-      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This website was <a href='blog/handcrafted'>hand-crafted with assets made by Filipino artists</a>.
+      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This website was <a href='journal/handcrafted'>hand-crafted with assets made by Filipino artists</a>.
         <br></br>
         <br></br>
         Last update: 11/25/25 <a href='https://github.com/jiannaso/jiso.design'>[repo]</a> </p>

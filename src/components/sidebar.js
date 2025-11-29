@@ -4,13 +4,16 @@ function Sidebar() {
   return (
     <div className="sidebar" style={{zIndex: "100"}}>
 
+<h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>starred {'\u2197'}
+      {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
+      </h4>
       
       <h4 style ={{marginTop: "2rem", marginBottom: "1rem"}}>more {'\u2197'}
       {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </h4>
       <div style={{color:''}}>
 
-      <a target="_blank" href="/blog"><p>blog 
+      <a target="_blank" href="/journal"><p>journal 
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
         </p></a>
       

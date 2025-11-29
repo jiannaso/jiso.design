@@ -14,7 +14,7 @@ function BlogResources() {
 <p>
 
 </p>
-<h2 className="blog-subtitle">Community</h2>
+<h2 className="blog-subtitle">Resources: community, mentorship, references</h2>
 <p id="left">
 The people I love and the people who love me are the driving force of anything I work on. Cultivating this community is something I deeply care about: I organize <a href='https://iisharvard.github.io/hci-reading-group/'>Harvard's HCI reading group</a>, previously organized Harvard's Neurodiversity Affinity Group as part of The Mind Project, and am a steward of the <a href='https://harvardgradunion.org/'>Harvard Graduate Student Union</a>.
 <br></br>
@@ -49,9 +49,11 @@ Here are some great resources about applying to grad school, and what the realit
 </ul>
             </p>
 
-            <h2 className="blog-subtitle">Resources</h2>
+            <h2 className="blog-subtitle">References</h2>
 <p id="left">
-My favorite books, papers, and scholars who shape my work. Email me for a PDF!
+
+My favorite quality about any person, experience, or idea is that it is <b>expansive</b>, gently ushering me beyond the bounds of what i know or think is possible. Here are some of my favorite books, papers, and scholars that have expanded my thinking. Email me for a PDF!
+
 <br></br>
 <br></br>
 <h3>Theory</h3>
@@ -74,7 +76,64 @@ My favorite books, papers, and scholars who shape my work. Email me for a PDF!
     <li>Reflexive Thematic Analysis (Braun and Clarke) <a href='https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2129597'>[paper]</a></li>
     <li><a href='https://experimentology.io/'>Experimentology</a></li>
 </ul>
+
+<h3>Love</h3>
+I am dreaming of a theory of love for HCI but for my life more broadly!
+<ul>
+    <li>Process-Centered Love by Lee Shevek <a href='https://theanarchistlibrary.org/library/lee-shevek-process-centered-love'>[archived on the Anarchist Library]</a></li>
+</ul>
+
+<h3>Favorite papers</h3>
+
+
+I enjoy papers that are principled about theory, critique reality intentionally, inspire generative ideas about the future, and work alongside the communties they design for or study, Most of these are HCI papers that draw from diverse disciplines.
+
+<ul>
+    <li>Flourishing in the Everyday: Moving Beyond Damage-Centered Design in HCI for BIPOC Communities (DIS '23)
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>Ontological Breakdown: Toward a World of Many Worlds (DIS '24)
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>Being Seen: Co-Interpreting Parkinson's Patient's Movement Ability in Deep Brain Stimulation Programming (CHI '15)
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>Staying Open to Interpretation: Engaging Multiple Meanings in Design and Evaluation
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>Affect: From Information to Interaction
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>The Work of Art in the Age of Mechanical Reproduction (1935)
+        <a href=''>
+            []
+        </a>
+    </li>
+
+    <li>Project Sidewalk: A Web-based Crowdsourcing Tool for Collecting Sidewalk Accessibility Data At Scale (CHI '19)
+        <a href=''>
+            []
+        </a>
+    </li>
+    
+</ul>
 </p>
+
         </div>
         </div>
 
