@@ -120,24 +120,40 @@ html, body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  width: 175px;
-  text-align: left;
+  /* align-items: left; */
+  /* width: 500px; */
+  /* text-align: left; */
   position: absolute;
   top: 150px;
+  padding-left: 2rem;
+  text-align: left;
+  top: 160px
   /* height: 75%; */
   /* overflow: scroll; */
-  padding-left: 2rem;
   /* mix-blend-mode: hard-light; */
 }
 
 .sidebar a {
   color: black;
+  padding-right: 1rem;
 }
 
 @media (max-width: 799px) {
   .sidebar {
-    display: none;
+    flex-direction: row !important;
+    flex-wrap: wrap; 
+    width: fit-content !important;
+    top: 30px;
+    left: calc(50vw - 190px);
+    margin: auto !important;
+    position: absolute;
+    text-align: center;
+    justify-items: center;
+  }
+  .sidebar p {
+    text-align: center !important;
+    margin-left : 5px;
+    padding-right: 5px;
   }
 }
 
@@ -169,7 +185,7 @@ html, body {
     align-items: center;
     text-align: center;
     padding: 1rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
   
   .header-text {

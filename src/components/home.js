@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="App" style={{backgroundImage: flower, backgroundSize: "cover",}}>
       <Header pos={"absolute"} blend={'difference'}/>
-      {/* <Sidebar /> */}
+      <Sidebar />
       <Playground />
       <About />
       <Projects />
