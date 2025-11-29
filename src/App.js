@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import PhilGraph from "./components/phil";
@@ -13,6 +14,7 @@ import JournalLove from "./components/journal/journal-love";
 function App() {
   return (
     <BrowserRouter>
+      <Analytics />
       <Routes>
           <Route index element={<Home />} />
           <Route path="journal/resources" element={<JournalResources />} />
