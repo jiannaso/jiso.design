@@ -149,6 +149,7 @@ html, body {
     position: absolute;
     text-align: center;
     justify-items: center;
+    z-index: 10000 !important;
   }
   .sidebar p {
     text-align: center !important;
