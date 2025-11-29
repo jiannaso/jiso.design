@@ -11,9 +11,9 @@ function Sidebar() {
       </h4> */}
 
 
-      <p><a target="_blank" href="/journal">journal 
+      <a target="_blank" href="/journal"><p>journal 
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
-        </a></p>
+        </p></a>
       
  
       <a target="_blank" href="https://www.are.na/ji-so/index"><p>are.na 
