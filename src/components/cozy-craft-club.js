@@ -27,6 +27,10 @@ import closeted from '../media/closeted.jpg';
 function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
 
+    useEffect(() => {
+        document.title = 'Cozy Craft Club';
+      }, []);
+
     const [images, setImages] = useState(
         [
 
