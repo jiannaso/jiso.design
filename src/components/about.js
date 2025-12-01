@@ -210,7 +210,7 @@ export const About = () => {
       <img src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '3px', paddingTop: '0px' }} />
 
 
-      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This website was <a href='journal/handcrafted'>hand-crafted with assets made by Filipino artists</a>.
+      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This playground was <a href='journal/handcrafted'>hand-crafted with assets made by Filipino artists</a>.
         <br></br>
         <br></br>
         Last update: 11/25/25 <a href='https://github.com/jiannaso/jiso.design'>[repo]</a> </p>
