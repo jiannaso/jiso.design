@@ -11,7 +11,7 @@ function Sidebar() {
       </h4> */}
 
 
-      <a target="_blank" href="/craft/club"><p>recess
+      <a target="_blank" href="https://www.recess.community"><p>recess
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>
 
