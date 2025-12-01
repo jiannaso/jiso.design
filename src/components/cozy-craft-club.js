@@ -108,6 +108,7 @@ function CraftClub() {
         <div style={{ textAlign: "center", width: "80%", margin: 'auto', paddingTop: '5rem', color: '#3A3A3A', backgroundColor: '' }}>
                   <meta name="keywords" content="craft club" />
                   <meta property="og:image" content="..media/flower.jpg" />
+                  <title>cozy craft club</title>
 
             <div style={{ textAlign: "center" }}>
                 <img src={flowerSticker} className="App-logo" alt="flower" style={{ width: "60px", height: "60px" }} />
