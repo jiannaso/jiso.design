@@ -11,7 +11,7 @@ function Sidebar() {
       </h4> */}
 
 
-      <a target="_blank" href="/craft/club"><p>craft club
+      <a target="_blank" href="/craft/club"><p>recess
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>
 
@@ -24,12 +24,7 @@ function Sidebar() {
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>
 
-      <a target="_blank" href="https://scholar.google.com/citations?user=9VeHD_AAAAAJ&hl=en"><p>scholar
-        {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
-      </p></a>
-      <a target="_blank" href="https://github.com/jiannaso"><p>github
-        {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
-      </p></a>
+     
       <a target="_blank" href="https://drive.google.com/file/d/1rLYaowFP10nxBqGESYajrQv7Kdp9sSfb/view"><p>cv
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>

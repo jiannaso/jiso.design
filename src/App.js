@@ -26,7 +26,7 @@ function App() {
           <Route path="journal/love" element={<JournalLove />} />
 
           <Route path="journal/philosophy" element={<PhilGraph />} />
-          <Route path="craft/club" element={<CraftClub />} />
+          <Route path="recess." element={<CraftClub />} />
 
       </Routes>
     </BrowserRouter>
