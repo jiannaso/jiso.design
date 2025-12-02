@@ -109,7 +109,7 @@ export const About = () => {
           <h2 style={{ textAlign: 'center' }}>
             I create to help us remember ourselves, care for each other, & honor our elders. </h2>
           <p id="left">
-            <b>I explore these dreams through computer science research, installation projection art, essays, and textile work.</b> My practice is heavily influenced by critical theory, feminist frameworks, disability studies, and medical anthropology. All of my inspiration can be traced back to my family. Here are my <a href="www.journal.jiso.design/resources.html"> favorite resources.</a>
+            <b>I explore these dreams through computer science research, installation projection art, essays, and textile work.</b> My practice is heavily influenced by critical theory, feminist frameworks, disability studies, and medical anthropology. All of my inspiration can be traced back to my family. Here are my <a href="https://www.journal.jiso.design/resources.html"> favorite resources.</a>
 
           </p>
           {/* 
@@ -210,7 +210,7 @@ export const About = () => {
       <img src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '3px', paddingTop: '0px' }} />
 
 
-      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This playground was <a href='www.journal.jiso.design/handcrafted.html'>hand-crafted with assets made by Filipino artists</a>.
+      <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This playground was <a href='https://www.journal.jiso.design/handcrafted.html'>hand-crafted with assets made by Filipino artists</a>.
         <br></br>
         <br></br>
         Last update: 11/25/25 <a href='https://github.com/jiannaso/jiso.design'>[repo]</a> </p>
