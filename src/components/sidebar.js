@@ -15,7 +15,7 @@ function Sidebar() {
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>
 
-      <a target="_blank" href="/journal"><p>journal
+      <a target="_blank" href="www.journal.jiso.design"><p>journal
         {/* <span className={"link-arrow"}> {'\u2197'}</span> */}
       </p></a>
 
