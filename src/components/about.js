@@ -21,7 +21,7 @@ export const About = () => {
     id: 0,
     title: 'AIxHealth Talk: Reciprocity in health research',
     name: 'Presented at the AIxHealth seminar on \"Unpacking Reciprocity in Data Practices in Health Research and Design\" <a href=\'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe\'>[abstract]</a> <a href=\'https://mediaspace.gatech.edu/media/AIxHealth%3A+Unpacking+Reciprocity+in+Data+Practices+in+Health+Research+and+Design/1_sw204q24\'> [recording]</a>',
-    desc: 'November 2025',
+    desc: 'November 2025 ',
     link: 'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe',
     linkname: '',
     img: aixhealth, 
