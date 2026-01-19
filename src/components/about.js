@@ -24,7 +24,7 @@ export const About = () => {
     desc: 'November 2025',
     link: 'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe',
     linkname: '',
-    img: aixhealth,
+    img: aixhealth, 
 
   }, {
     id: 1,
