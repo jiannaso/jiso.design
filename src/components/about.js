@@ -13,11 +13,24 @@ import cscw25 from '../media/cscw25.png';
 import quals from '../media/quals.png';
 import garden from '../media/garden.png';
 import rexdesign from '../media/rexdesign.png';
+import spectrum from '../media/spectrum.png'
+
 // <a href=\'\'></a>
 const sticker = "100px";
 
 export const About = () => {
-  const people = [{
+  const people = [
+    {
+      id: -1,
+      title: 'CHI 2026 | Beyond Anthropomorphism: a Spectrum of Interface Metaphors for LLMs',
+      name: '\ <b>TLDR</b>: the anthropomorphic metaphor has been overly reinforced in LLMs, so we look towards alternate metaphors that reveal LLMs as sociotechnical systems.  Read the <a href=\'https://arxiv.org/abs/2603.04613\'>[arxiv preprint]</a> and please send me your thoughts!',
+      desc: 'March 2026 ',
+      link: '',
+      linkname: '',
+      img: spectrum, 
+  
+    }, 
+    {
     id: 0,
     title: 'AIxHealth Talk: Reciprocity in health research',
     name: 'Presented at the AIxHealth seminar on \"Unpacking Reciprocity in Data Practices in Health Research and Design\" <a href=\'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe\'>[abstract]</a> <a href=\'https://mediaspace.gatech.edu/media/AIxHealth%3A+Unpacking+Reciprocity+in+Data+Practices+in+Health+Research+and+Design/1_sw204q24\'> [recording]</a>',
