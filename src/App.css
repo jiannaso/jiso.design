@@ -222,8 +222,18 @@ body {
   /* adjust to control the size */
   aspect-ratio: 1;
   mix-blend-mode: soft-light;
-  --g: /38.26% 38.26% radial-gradient(#000 calc(71% - 1px), #0000 71%) no-repeat;
-  mask: 78.363% 91.177% var(--g), 19.603% 89.7% var(--g), 2.85% 33.359% var(--g), 51.257% 0.016% var(--g), 97.926% 35.749% var(--g), radial-gradient(100% 100%, #000 25.476%, #0000 calc(25.476% + 1px));
+  /* --g: /38.26% 38.26% radial-gradient(#000 calc(71% - 1px), #0000 71%) no-repeat; */
+  /* mask: 78.363% 91.177% var(--g), 19.603% 89.7% var(--g), 2.85% 33.359% var(--g), 51.257% 0.016% var(--g), 97.926% 35.749% var(--g), radial-gradient(100% 100%, #000 25.476%, #0000 calc(25.476% + 1px)); */
+  --g: radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) / 38.26% 38.26% no-repeat;
+
+  mask:
+  radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) 78.363% 91.177% / 38.26% 38.26% no-repeat,
+  radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) 19.603% 89.7% / 38.26% 38.26% no-repeat,
+  radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) 2.85% 33.359% / 38.26% 38.26% no-repeat,
+  radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) 51.257% 0.016% / 38.26% 38.26% no-repeat,
+  radial-gradient(circle, #000 calc(71% - 1px), #0000 71%) 97.926% 35.749% / 38.26% 38.26% no-repeat,
+  radial-gradient(100% 100% at center, #000 25.476%, #0000 calc(25.476% + 1px));
+
   background: rgba(255, 242, 247, .5);
   transition: 1s;
   text-align: center;

@@ -1,10 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
 import InfoList from './infoList';
-import flowerSticker from "../media/flower.png"
-import flowerSticker1 from "../media/flower1.png"
-import flowerSticker2 from "../media/flower2.png"
-import Box from "./box";
 import jianna from '../media/jianna.jpg';
 import olin from '../media/olin.png';
 import aixhealth from '../media/aixhealth.png';
@@ -16,14 +11,13 @@ import rexdesign from '../media/rexdesign.png';
 import spectrum from '../media/spectrum.png'
 
 // <a href=\'\'></a>
-const sticker = "100px";
 
 export const About = () => {
   const people = [
     {
       id: -1,
       title: 'CHI 2026 | Beyond Anthropomorphism: a Spectrum of Interface Metaphors for LLMs',
-      name: '\ <b>TLDR</b>: the anthropomorphic metaphor has been overly reinforced in LLMs, so we look towards alternate metaphors that reveal LLMs as sociotechnical systems.  Read the <a href=\'https://arxiv.org/abs/2603.04613\'>[arxiv preprint]</a> and please send me your thoughts!',
+      name: '<b>TLDR</b>: the anthropomorphic metaphor has been overly reinforced in LLMs, so we look towards alternate metaphors that reveal LLMs as sociotechnical systems. \n\n Read the <a href=\'https://arxiv.org/abs/2603.04613\'>[arxiv preprint]</a> and please send me your thoughts!',
       desc: 'March 2026 ',
       link: '',
       linkname: '',
@@ -33,7 +27,7 @@ export const About = () => {
     {
     id: 0,
     title: 'AIxHealth Talk: Reciprocity in health research',
-    name: 'Presented at the AIxHealth seminar on \"Unpacking Reciprocity in Data Practices in Health Research and Design\" <a href=\'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe\'>[abstract]</a> <a href=\'https://mediaspace.gatech.edu/media/AIxHealth%3A+Unpacking+Reciprocity+in+Data+Practices+in+Health+Research+and+Design/1_sw204q24\'> [recording]</a>',
+    name: 'Presented at the AIxHealth seminar on "Unpacking Reciprocity in Data Practices in Health Research and Design" <a href=\'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe\'>[abstract]</a> <a href=\'https://mediaspace.gatech.edu/media/AIxHealth%3A+Unpacking+Reciprocity+in+Data+Practices+in+Health+Research+and+Design/1_sw204q24\'> [recording]</a>',
     desc: 'November 2025 ',
     link: 'https://www.aixhealth.info/virtual-seminar-series#h.oi37lmsatjhe',
     linkname: '',
@@ -42,7 +36,7 @@ export const About = () => {
   }, {
     id: 1,
     title: 'CSCW Paper: Ethical health data practices',
-    name: 'Presented our <a href=\'https://dl.acm.org/doi/abs/10.1145/3757562\'>paper</a> \"Bridging Ontologies of Neurological Conditions: Towards Patient-Centered Data Practices in Digital Phenotyping Research and Design\" <a href=\'https://www.figma.com/deck/1EaVM0n9pUCci9gEMDhYoj/CSCW-2025?node-id=4-240&viewport=-63%2C10%2C0.33&t=5Lkwy8UmwcgBD9yH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1\'>[slides]</a>',
+    name: 'Presented our <a href=\'https://dl.acm.org/doi/abs/10.1145/3757562\'>paper</a> "Bridging Ontologies of Neurological Conditions: Towards Patient-Centered Data Practices in Digital Phenotyping Research and Design" <a href=\'https://www.figma.com/deck/1EaVM0n9pUCci9gEMDhYoj/CSCW-2025?node-id=4-240&viewport=-63%2C10%2C0.33&t=5Lkwy8UmwcgBD9yH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1\'>[slides]</a>',
     award: '🎖️ Honorable Mention for Best Paper (Top 5% of papers)',
     desc: 'October 2025',
     link: 'https://www.figma.com/deck/1EaVM0n9pUCci9gEMDhYoj/CSCW-2025?node-id=4-240&viewport=-63%2C10%2C0.33&t=5Lkwy8UmwcgBD9yH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
@@ -62,7 +56,7 @@ export const About = () => {
     id: 3,
     title: 'Passed my oral qualifying exam!',
     desc: 'May 2025',
-    name: 'I am officially a PhD Candidate™️ \n\nI proposed work on \"Designing Health Tools for Patient and Clinician Knowledge\" <a href=\'https://www.figma.com/deck/k77RbkA0dfyr8ozcH0INeF/Jianna-So-Qualifying-Exam?node-id=1-50&viewport=-63%2C10%2C0.33&t=WjNwWTbIQ4mUQDvp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1\'>[slides]</a>',
+    name: 'I am officially a PhD Candidate™️ \n\nI proposed work on "Designing Health Tools for Patient and Clinician Knowledge" <a href=\'https://www.figma.com/deck/k77RbkA0dfyr8ozcH0INeF/Jianna-So-Qualifying-Exam?node-id=1-50&viewport=-63%2C10%2C0.33&t=WjNwWTbIQ4mUQDvp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1\'>[slides]</a>',
     link: 'https://www.figma.com/deck/k77RbkA0dfyr8ozcH0INeF/Jianna-So-Qualifying-Exam?node-id=1-50&viewport=-63%2C10%2C0.33&t=WjNwWTbIQ4mUQDvp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
     linkname: '',
     img: quals
@@ -70,7 +64,7 @@ export const About = () => {
     id: 4,
     title: 'Co-organized HarvardxDesign conference',
     desc: 'April 2025',
-    name: 'Our theme was \" Re x Design\", focused on reflecting and reshaping our design practice to be more intentional, critical, and generative <a href=\'https://harvardxre.design/\'>[website]</a>. \n\nI led the experience design team, which designed an <a href=\'https://harvard-rexdesign.web.app/\'>interactive website</a>, cards, and workshops for 200+ attendees.',
+    name: 'Our theme was " Re x Design", focused on reflecting and reshaping our design practice to be more intentional, critical, and generative <a href=\'https://harvardxre.design/\'>[website]</a>. \n\nI led the experience design team, which designed an <a href=\'https://harvard-rexdesign.web.app/\'>interactive website</a>, cards, and workshops for 200+ attendees.',
     link: 'https://harvardxre.design/',
     linkname: '',
     img: rexdesign,
@@ -79,7 +73,7 @@ export const About = () => {
     id: 4,
     title: 'CSCW Paper: Health tech for older adults',
     desc: 'October 2024',
-    name: 'Presented our <a href=\'https://dl.acm.org/doi/abs/10.1145/3687017\'>paper </a>\"They Make Us Old Before We\'re Old\": Designing Ethical Health Technology with and for Older Adults <a href=\'https://docs.google.com/presentation/d/1E7uhRRhaFCj8wJahgUgSCEH14L6y-JrllvO0rayZvnM/edit?slide=id.g30d1da08bb5_0_130#slide=id.g30d1da08bb5_0_130\'>[slides]</a>',
+    name: 'Presented our <a href=\'https://dl.acm.org/doi/abs/10.1145/3687017\'>paper </a>"They Make Us Old Before We\'re Old": Designing Ethical Health Technology with and for Older Adults <a href=\'https://docs.google.com/presentation/d/1E7uhRRhaFCj8wJahgUgSCEH14L6y-JrllvO0rayZvnM/edit?slide=id.g30d1da08bb5_0_130#slide=id.g30d1da08bb5_0_130\'>[slides]</a>',
     award: '🎖️ Honorable Mention for Best Paper (Top 3% of papers)',
     link: 'https://docs.google.com/presentation/d/1E7uhRRhaFCj8wJahgUgSCEH14L6y-JrllvO0rayZvnM/edit?slide=id.g30d1da08bb5_0_130#slide=id.g30d1da08bb5_0_130',
     linkname: '',
@@ -96,7 +90,7 @@ export const About = () => {
     id: 4,
     title: 'HarvardxDesign Conference: Community garden',
     desc: 'April 2024',
-    name: 'This year\'s theme was <a href=\'https://www.harvardxdesign.co/\'>\"Co x Design\"</a>, focused on designing more inclusively, sustainably, and thoughtfully \n\n 🌸 Designed and built a <a href=\'https://experience-design.web.app/\'>digital community garden</a> for attendees',
+    name: 'This year\'s theme was <a href=\'https://www.harvardxdesign.co/\'>"Co x Design"</a>, focused on designing more inclusively, sustainably, and thoughtfully \n\n 🌸 Designed and built a <a href=\'https://experience-design.web.app/\'>digital community garden</a> for attendees',
     link: 'https://www.harvardxdesign.co/',
     linkname: '',
     img: garden,
@@ -175,7 +169,7 @@ export const About = () => {
 
 
           <div className='currently-img' style={{ textAlign: 'center', width: '100%', paddingTop: '3rem'}}>
-            <img src={require('../media/projects/neurobooth.jpg')} style={{ width: '100%', margin: 'auto' }} />
+            <img alt="" src={require('../media/projects/neurobooth.jpg')} style={{ width: '100%', margin: 'auto' }} />
             <br></br>
 
             {/* <a href='https://neurobooth.mgh.harvard.edu/'>Neurobooth</a> at MGH Neurology */}
@@ -217,10 +211,10 @@ export const About = () => {
         <br></br>
       </p>
 
-      <img src={require('../media/projects/swr.png')} style={{ width: '50%', padding: '3px' }} />
-      <img src={require('../media/projects/aclu.png')} style={{ width: '50%', padding: '3px' }} />
-      <img src={require('../media/projects/booked.png')} style={{ width: '50%', padding: '3px',paddingTop: '0px'  }} />
-      <img src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '3px', paddingTop: '0px' }} />
+      <img alt="" src={require('../media/projects/swr.png')} style={{ width: '50%', padding: '3px' }} />
+      <img alt="" src={require('../media/projects/aclu.png')} style={{ width: '50%', padding: '3px' }} />
+      <img alt="" src={require('../media/projects/booked.png')} style={{ width: '50%', padding: '3px',paddingTop: '0px'  }} />
+      <img alt="" src={require('../media/projects/latimes.png')} style={{ width: '50%', padding: '3px', paddingTop: '0px' }} />
 
 
       <p style={{ paddingBottom: '3rem', paddingTop: "2rem" }}>This playground was <a href='https://journal.jiso.design//handcrafted.html'>hand-crafted with assets made by Filipino artists</a>.
