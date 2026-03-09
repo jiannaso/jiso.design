@@ -17,7 +17,7 @@ export const About = () => {
     {
       id: -1,
       title: 'CHI 2026 | Beyond Anthropomorphism: a Spectrum of Interface Metaphors for LLMs',
-      name: '<b>TLDR</b>: LLMs are sociotechnical systems, not human. However, the anthropomorphic metaphor has been overly reinforced in LLMs. In this, we propose alternate metaphors that . \n\n Read the <a href=\'https://arxiv.org/abs/2603.04613\'>[arxiv preprint]</a> and please send us your thoughts!' ,
+      name: '<b>TLDR</b>: LLMs are sociotechnical systems, not human. However, the anthropomorphic metaphor has been overly reinforced in LLMs. In this, we propose alternate metaphors that reveal the underlying system of LLMs, address user dissonance, and encourage critical engagement. \n\n Read the <a href=\'https://arxiv.org/abs/2603.04613\'>[arxiv preprint]</a> and please send us your thoughts!' ,
       desc: 'March 2026 ',
       link: '',
       linkname: '',
